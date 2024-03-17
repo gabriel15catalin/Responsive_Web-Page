@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='ro'>
+<head>
+<title>Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type='text/css'>
+body {
+	background-image: url("fundal4.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	}
+@media only screen and (min-width: 400px) {
+  body {
+    background-image: url('fundal4.jpg');
+  }
+}
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+.topnav a {
+  float: left;
+  color: #996633;
+  text-align: justify;
+  padding: 28px 28px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: gray;
+  color: black;
+}
+h1 {
+	font-size: 30px;
+	text-align: center;
+	color: #ffff66;
+	text-shadow: 2px 2px 5px black;
+	font-family: "Comic Sans MS", sans-serif;
+}
+h2 {
+	font-size: 20px;
+	color: white;
+	font-family: "Segoe Script", sans-serif;
+}
+div { 
+            margin: 10px; 
+        } 
+  
+        .first { 
+            width: 31%; 
+            display: inline-block; 
+            
+        } 
+  
+        .second { 
+            width: 31%; 
+            display: inline-block; 
+            
+        } 
+  
+        .third { 
+            width: 31%; 
+            display: inline-block; 
+            
+        } 
+@media screen and (max-width: 500px) { 
+  
+            .first, 
+            .second, 
+            .third { 
+                width: 70%; 
+            } 
+        }
+img {
+	max-width: 300px;
+    max-height: 300px;
+}
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav-right {
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+<h1>Portfolio</h1>
+<div class='first'>
+<h2>Mobile & Computing</h2>
+<img src='1.jpg'>
+</div>
+<div class='second'>
+<h2>TV & Audio Devices</h2>
+<img src='2.jpg'>
+</div>
+<div class='third'>
+<h2>Home appliances</h2>
+<img src='3.jpg'>
+</div>
+</body>
+</html>
